@@ -1,0 +1,63 @@
+{
+  "name": "My Shop",
+  "short_name": "My Shop",
+  "description": "My Shop is a multiperpose e-commerce system",
+  "lang": "en-US",
+  "start_url":"/",
+  "display": "standalone",
+  "orientation":"protrait",
+  "theme_color":"#FC4444",
+  "background_color":"#ffffff",
+  "icons": [
+    {
+      "src": "image/icons/72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "image/icons/96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "image/icons/120.png",
+      "type": "image/png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "image/icons/128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "image/icons/144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "image/icons/152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "image/icons/180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "image/icons/192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "image/icons/384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "image/icons/512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

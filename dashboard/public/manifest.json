@@ -1,0 +1,63 @@
+{
+  "name": "My Shop",
+  "short_name": "My Shop",
+  "description": "My Shop is a multiperpose e-commerce system",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "protrait",
+  "theme_color": "#FC4444",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "images/pwaIcons/72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "images/pwaIcons/96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "images/pwaIcons/120.png",
+      "type": "image/png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "images/pwaIcons/128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "images/pwaIcons/144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "images/pwaIcons/152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "images/pwaIcons/180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "images/pwaIcons/192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/pwaIcons/384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "images/pwaIcons/512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

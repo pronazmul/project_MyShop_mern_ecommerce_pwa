@@ -1,0 +1,112 @@
+/* Custom Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+/* React Slick Design */
+.button__bar {
+  position: absolute;
+  margin-top: -40px;
+  left: 45%;
+  right: auto;
+}
+
+.button__bar li {
+  display: inline-block;
+  list-style: none;
+  cursor: pointer;
+  margin: 0 2px;
+}
+
+.button__bar li button {
+  border: none;
+  background: #fc44446c;
+  color: transparent;
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  border-radius: 7.5px;
+}
+
+.button__bar li.slick-active button {
+  background-color: #fc4444;
+  height: 10px;
+  width: 30px;
+}
+
+.button__bar li button:hover {
+  background: #fc4444;
+}
+/* Tailwind Dependencies */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-poppins;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-roboto;
+  }
+}
+
+@layer components {
+  .size-selector input:checked + label {
+    @apply bg-primary text-white;
+  }
+  .color-selector input:checked + label {
+    @apply ring-2 ring-primary;
+  }
+  .input-box {
+    @apply w-full block rounded border border-gray-300 px-4 py-3 text-gray-600 text-sm focus:ring-primary focus:border-primary placeholder-gray-500;
+  }
+
+  .success {
+    @apply focus:ring-green-500 focus:border-green-500;
+  }
+  .w-full-btn {
+    @apply bg-primary border border-primary hover:text-primary hover:bg-transparent rounded text-white block w-full text-center py-2 transition duration-300;
+  }
+  /* Typography: */
+}
+
+/* .slick-slider {
+  position: relative;
+}
+.slick-list img {
+  position: relative;
+}
+ul.slick-dots {
+  position: absolute;
+  margin-top: 100px;
+  color: transparent;
+}
+ul.slick-dots li {
+  display: inline-block;
+  list-style: none;
+  cursor: pointer;
+  margin: 0 1px 0 0;
+  color: transparent;
+}
+ul.slick-dots li button {
+  border: none;
+  background: #fc44446c;
+  cursor: pointer;
+  color: yellow;
+  height: 8px;
+  width: 10px;
+  border-radius: 7.5px;
+}
+ul.slick-dots li.slick-active button {
+  background-color: #fc4444;
+  height: 8px;
+  width: 20px;
+}
+
+ul.slick-dots li button:hover {
+  background: #fc4444;
+} */
